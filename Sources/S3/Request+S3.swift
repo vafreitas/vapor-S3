@@ -7,6 +7,6 @@ extension Request {
             fatalError("S3 is not configured, please use application.s3.configuration = ...")
         }
         
-        return .init(config: config, eventLoop: eventLoop, httpClient: application.client.http)
+        return .init(config: config, eventLoop: eventLoop, httpClient: application.http.client.shared)
     }
 }

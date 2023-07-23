@@ -12,13 +12,13 @@ let package = Package(
         //        .library(name: "S3TestTools", targets: ["S3TestTools"])
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0-rc.3.11"),
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.13.1"),
-        .package(url: "https://github.com/apple/swift-crypto.git", from: "1.0.0"),
-        .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.0.0"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.77.2"),
+        .package(url: "https://github.com/apple/swift-nio.git", from: "2.56.0"),
+        .package(url: "https://github.com/apple/swift-crypto.git", from: "1.1.7"),
+        .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.18.0"),
         .package(url: "https://github.com/Einstore/HTTPMediaTypes.git", from: "0.0.1"),
         .package(name: "WebError", url: "https://github.com/Einstore/WebErrorKit.git", from: "0.0.1"),
-        .package(url: "https://github.com/LiveUI/XMLCoding.git", from: "0.1.0")
+        .package(url: "https://github.com/LiveUI/XMLCoding.git", from: "0.4.1")
     ],
     targets: [
         .target(
