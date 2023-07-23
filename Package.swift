@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "S3Kit",
+    name: "S3",
     platforms: [
         .macOS(.v10_15)
     ],
